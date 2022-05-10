@@ -2,10 +2,11 @@
 
 
 ## 下载镜像
-1. 打开Dokcer
-2. 打开注册表
-3. 搜索 xarr-rss
-4. 双击下载镜像
+- 打开Dokcer
+  - 没有的情况下请先安装
+- 打开注册表
+- 搜索 xarr-rss
+- 双击下载镜像
     ![img](../assets/install_sy_1.png)
 
 ## 创建容器
