@@ -9,7 +9,8 @@
 * 功能说明
   * [系统配置](/zh-cn/system.md)
   * [服务配置](/zh-cn/service.md)
-  * [数据源配置](/zh-cn/sources.md)
+  * 数据源配置
+    * [数据源](/zh-cn/sources.md)
     * [Sonarr数据源](/zh-cn/sonarr-sources.md)
   * [分组管理(核心)](/zh-cn/group.md)
     * [分组配置](/zh-cn/group-conf.md)
