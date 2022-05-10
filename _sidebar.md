@@ -13,3 +13,7 @@
     * [Sonarr数据源](/zh-cn/sonarr-sources.md)
   * [分组管理(核心)](/zh-cn/group.md)
     * [分组配置](/zh-cn/group-conf.md)
+* 使用教程
+  * [Sonarr添加Rss索引](/zh-cn/sonarr-create-rss.md)
+* [常见问题](/zh-cn/question.md)
+* [更新日志](/zh-cn/changelog.md)
