@@ -9,9 +9,7 @@
 * 功能说明
   * [系统配置](/zh-cn/system.md)
   * [服务配置](/zh-cn/service.md)
-  * [分组管理](/zh-cn/group.md)
-    * [分组刷新](/zh-cn/group-conf.md)
+  * [数据源配置](/zh-cn/sources.md)
+    * [Sonarr数据源](/zh-cn/sonarr-sources.md)
+  * [分组管理(核心)](/zh-cn/group.md)
     * [分组配置](/zh-cn/group-conf.md)
-* 进阶
-    * [规则生成](/zh-cn/Docsify部署教程.md)
-    * [Sonarr自动添加](/zh-cn/Docsify部署教程.md)
