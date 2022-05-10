@@ -41,3 +41,6 @@ QQ群: 996973766 [点击链接加入群聊【XArr 家庭影院一条龙】](http
 - [作者-博客教程](https://blog.52nyg.com/2022/04/1513)
 - [SanaeMio-B站教程](https://www.bilibili.com/read/cv16515847)
 - [SanaeMio-什么值得买教程](https://post.smzdm.com/p/ao9lr4x9/)
+
+## 感谢
+感谢群友`SanaeMio`的大力支持,帮忙撸文档,帮忙一起肝测试 哈哈
