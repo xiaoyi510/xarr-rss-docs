@@ -1,11 +1,17 @@
 <!-- _sidebar.md -->
 
 * 入门
-    * [安装](/zh-cn/install.md) <!--注意这里是相对路径-->
-    * [快速开始](/ProjectDocs/Docsify使用指南.md) <!--注意这里是相对路径-->
-    * [系统配置](/ProjectDocs/Typora+Docsify快速入门.md)
-    * [服务配置](/ProjectDocs/Typora+Docsify快速入门.md)
-    * [分组管理](/ProjectDocs/Typora+Docsify快速入门.md)
-    * [分组配置](/ProjectDocs/Typora+Docsify快速入门.md)
-* 晋级版
-    * [Docsify部署教程](/ProjectDocs/Docsify部署教程.md)
+    * [安装](/zh-cn/install.md)
+      * [Unraid](/zh-cn/install-unraid.md)
+      * [群晖](/zh-cn/install-synology.md)
+      * [Dokcer](/zh-cn/install-docker.md)
+    * [快速开始](/zh-cn/quck-start.md)
+* 功能说明
+  * [系统配置](/zh-cn/system.md)
+  * [服务配置](/zh-cn/service.md)
+  * [分组管理](/zh-cn/group.md)
+    * [分组刷新](/zh-cn/group-conf.md)
+    * [分组配置](/zh-cn/group-conf.md)
+* 进阶
+    * [规则生成](/zh-cn/Docsify部署教程.md)
+    * [Sonarr自动添加](/zh-cn/Docsify部署教程.md)
