@@ -6,6 +6,9 @@
 XArr-Rss可以简单理解为一个RSS转换器，它可以将各个BT/PT发布站点的RSS内容转换成Sonarr能正确识别的RSS内容。
 它在整个自动化流程中扮演索引器的角色，定位与Prowlarr、Jackett类似，主要针对日本动画尤其是新番着重做了优化，可以和其它索引器互为补充。
 
+## 进入教程
+[点我开始娱乐](https://xiaoyi510.github.io/xarr-rss/)
+
 ## 运行流程
 ![img.png](assets/img_run.png)
 
