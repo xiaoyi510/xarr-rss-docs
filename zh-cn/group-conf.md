@@ -1,6 +1,7 @@
 # 分组管理
     点击左侧菜单中增加的分组 进入分组媒体管理
 
+## 列表
 ![img_14.png](../assets/img_14.png)
 
 
@@ -9,7 +10,7 @@
 ![img_15.png](../assets/img_15.png)
 
 
-### 界面功能详解
+## 界面功能详解
 * 选择Sonarr媒体 *必选
   * Sonarr中的媒体信息-可搜索中英文标题
 ![img_16.png](../assets/img_16.png)
