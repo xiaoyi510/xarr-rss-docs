@@ -6,6 +6,7 @@
       * [群晖](/zh-cn/install-synology.md)
       * [Dokcer](/zh-cn/install-docker.md)
     * [快速开始](/zh-cn/quck-start.md)
+    * [基础视频教程](/zh-cn/base-movie.md)
 * 功能说明
   * [系统配置](/zh-cn/system.md)
   * [服务配置](/zh-cn/service.md)
