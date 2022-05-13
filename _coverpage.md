@@ -11,4 +11,4 @@
 - 🏆剧集信息国产化🏆
 
 
-[开始使用吧 Let Go](/README.md)
+[开始使用吧 Let's Go](/README.md)
