@@ -31,6 +31,10 @@ XArr-Rss可以简单理解为一个RSS转换器，它可以将各个BT/PT发布�
 
 捐助后可联系我领取对应赞助会员
 
+### 赞助发卡网址
+点我购买充值卡自助充值
+[https://fk.52nyg.com/](https://fk.52nyg.com/)
+
 ### 微信捐赠
 ![](assets/wechat.jpg)
 
