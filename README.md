@@ -35,10 +35,10 @@ XArr-Rss可以简单理解为一个RSS转换器，它可以将各个BT/PT发布�
 点我购买充值卡自助充值
 [https://fk.52nyg.com/](https://fk.52nyg.com/)
 
-### 微信捐赠
+### 微信捐赠 (使用上方发卡网址可自助充值哦)
 ![](assets/wechat.jpg)
 
-### 支付宝
+### 支付宝 (使用上方发卡网址可自助充值哦)
 ![](assets/alipay.jpg)
 
 ## 交流群
@@ -48,6 +48,7 @@ QQ群: 996973766 [点击链接加入群聊【XArr 家庭影院一条龙】](http
 - [作者-博客教程](https://blog.52nyg.com/2022/04/1513)
 - [SanaeMio-B站教程](https://www.bilibili.com/read/cv16515847)
 - [SanaeMio-什么值得买教程](https://post.smzdm.com/p/ao9lr4x9/)
+- [人生观-Unraid安装Xarr-Rss](https://www.lxg2016.com/55758.html)
 
 ## 感谢
 感谢群友`SanaeMio`的大力支持,帮忙撸文档,帮忙一起肝测试 哈哈
