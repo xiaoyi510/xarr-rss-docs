@@ -27,31 +27,46 @@ XArr-Rss只会生成出能够匹配上你设定好规则的内容并加以转换
 
 `Komi Can't Communicate - S02E01 - Chinese - WEBDL-1080p`
 
-
 ## 为什么在Sonarr里自动搜索或手动搜索时没有来自XArr-Rss的结果？
-Rss索引: 因为Sonarr对于类型为RSS的indexer不支持自动搜索（Automatic Search）和交互式搜索（Interactive Search），仅支持通过RSS同步的方式获取XArr-Rss的转换结果，只要配置得当，不影响后续的抓取和下载流程。
 
-赞助会员支持`Torznab`索引支持自动搜索和交互式搜索
+Rss索引: 因为Sonarr对于类型为RSS的indexer不支持自动搜索（Automatic Search）和交互式搜索（Interactive
+Search），仅支持通过RSS同步的方式获取XArr-Rss的转换结果，只要配置得当，不影响后续的抓取和下载流程。
+
+`Torznab`索引支持自动搜索和交互式搜索
 
 ## 现在支持哪些站点？
-截至目前，已适配支持pt / bt蜜柑计划、萌番组、爱恋动漫、ACG.RIP、动漫花园，其它站点陆续适配中。理论上支持媒体RSS的站点都可以用本软件做转换处理。
+
+截至目前，已适配支持`pt` / `bt` 蜜柑计划、萌番组、爱恋动漫、ACG.RIP、动漫花园，其它站点陆续适配中。理论上支持媒体RSS的站点都可以用本软件做转换处理。
 
 ## 分组需要添加多个吗?
+
 通常只设置一个分组已经可以满足日常需求，如需将不同分组的番剧区分到不同的链接以作他用，可以创建多个分组。
 
 ## 服务设置里填写的qBittorrent配置有什么用途？
+
 当Sonarr通过XArr-Rss抓取到种子后，会发送给qBittorrent进行资源下载，同时也会通知XArr-Rss，XArr-Rss会自动将下载任务重命名为转换后的英文标准格式标题，帮助Sonarr在后续导入时正确识别第几季第几集。
 
-> 小知识：Sonarr的抓取和导入解析器是独立的两部分，前面RSS转换解决的只是抓取问题，如果不在qBittorrent中进行改名，Sonarr下载完导入时会再次根据种子里的文件名进行解析，从实际体验上来看对于第二季第三季等多季动画的识别成功率几乎为0，所以经常会出现明明是第二季的资源，却被Sonarr放到了第一季的文件夹。XArr-Rss通过修改任务名的方式避免了此问题。
+>
+小知识：Sonarr的抓取和导入解析器是独立的两部分，前面RSS转换解决的只是抓取问题，如果不在qBittorrent中进行改名，Sonarr下载完导入时会再次根据种子里的文件名进行解析，从实际体验上来看对于第二季第三季等多季动画的识别成功率几乎为0，所以经常会出现明明是第二季的资源，却被Sonarr放到了第一季的文件夹。XArr-Rss通过修改任务名的方式避免了此问题。
 
 ## 支持其它下载器吗？
 
-当前只支持qBittorrent，后续计划支持其它下载器，如rutorrent、Transmission等。
-
+当前只支持qBittorrent,Transmission，后续计划支持其它下载器，如rutorrent等。
 
 ## qBittorrent中没有被重命名
+
 1. 有可能qb无法被XArr-Rss通讯,检测填写的qb配置能否访问
-2. qb 4.4以上可能会出现此问题
+2. ~~qb 4.4以上可能会出现此问题~~ 最新版已解决
 
 ## qBittorrent 无法访问
-1. 检查qBittorrent主机是否多写了http://
+
+1. 检查qBittorrent是否在同一个内网
+
+## 片名没有中文名
+
+1. 检查themoviedb是否联通-点击服务设置-ThemovieDb-测试按钮
+2. 填写的apikey是否有问题
+
+## 测试匹配为0结果 但是右侧又有数据
+
+1. 查看Sonarr内的总集数(不包括特别篇)是否小于当前匹配的集数

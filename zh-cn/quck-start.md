@@ -1,7 +1,7 @@
 # 快速开始
 
 ## 安装
-[安装教程](/zh-cn/install.md)
+[安装教程](/assets/install.md)
 ## 登录配置中心
 
 访问 http://你的Ip:映射端口
