@@ -7,7 +7,7 @@
 
 
 ## XArr-Rss 中设置
-![img_1.png](../assetsxarr-rss-jacket.png)
+![img_1.png](../assets/xarr-rss-jacket.png)
 > 位置① 将torznab订阅地址赋值到Rss订阅地址
 > 
 > 位置② 将对应的apikey复制到此处
