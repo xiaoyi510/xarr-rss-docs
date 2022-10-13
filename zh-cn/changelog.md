@@ -19,7 +19,9 @@
     - `[{releaseGroup}][{chineseTitle}] {title} - {season}{episode} ({abEpisode}) [{language}][{quality}][{video}][{audio}][{mediaType}]`
   - TV电视剧默认格式:
     - `[{releaseGroup}][{chineseTitle}] {title} - {season}{episode} [{language}][{quality}][{video}][{audio}][{mediaType}]`
+  - 使用方式查看 [系统配置](/zh-cn/system.md)
 - [ ] 增加加入自定义发布组(必须全词匹配)
+
 
 ## 2.0.0.1 
 - [x] 增加若干种子识别
