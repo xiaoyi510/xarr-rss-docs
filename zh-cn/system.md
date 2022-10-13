@@ -19,5 +19,28 @@
 
 注: 需要在数据源或tmdb进行开启代理才可使用
 
+### RSS输出标题格式化
+#### 动漫输出标题
+默认格式:
+> [{releaseGroup}][{chineseTitle}] {title} - {season}{episode} ({abEpisode}) [{language}][{quality}][{video}][{audio}][{mediaType}]
+
+#### TV输出标题
+默认格式:
+>[{releaseGroup}][{chineseTitle}] {title} - {season}{episode} [{language}][{quality}][{video}][{audio}][{mediaType}]
+
+#### 名词解释
+    releaseGroup:发布组
+    chineseTitle:中文标题
+    title:原始标题
+    season:季
+    episode:集
+    abEpisode:绝对集数
+    language:语言
+    quality:质量
+    video:视频类型
+    audio:音频
+    mediaType:媒体类型
+
+
 ****
 ![img.png](../assets/system.png)
