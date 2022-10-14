@@ -21,3 +21,20 @@ docker run -d --name xarr-rss --add-host=api.themoviedb.org:108.156.91.21 -e TZ=
 | /app/conf | 您的本地路径 | 目录映射 |
 
 安装完成 访问 <http://主机:端口号> 即可进入配置中心
+
+**Docker Compose**
+
+```dockerfile
+version: "2.1"
+services:
+  xarr-rss:
+    image: xiaoyi510/xarr-rss:latest
+    container_name: xarr-rss
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /mnt/user/appdata/xarr-rss:/app/conf
+    ports:
+      - 8086:8086
+    restart: unless-stopped
+```
