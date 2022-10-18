@@ -2,6 +2,7 @@
 
 ## 安装
 [安装教程](/assets/install.md)
+
 ## 登录配置中心
 
 访问 http://你的Ip:映射端口
@@ -12,7 +13,7 @@
 ![img.png](../assets/img_login.png)
 
 ## 配置系统配置
-- 配置外网地址 
+- 配置映射地址 
   * 需要Sonarr Qbit 都能访问到的地址
   
 ## 配置服务设置
